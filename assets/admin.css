@@ -1,0 +1,20 @@
+.orderloft .orderloft-cards { display: flex; flex-wrap: wrap; gap: 16px; margin: 20px 0 8px; }
+.orderloft .orderloft-card { background: #fff; border: 1px solid #dcdcde; border-radius: 8px; padding: 16px 20px; min-width: 170px; display: flex; flex-direction: column; gap: 4px; }
+.orderloft .orderloft-card-accent { border-color: #2271b1; box-shadow: inset 4px 0 0 #2271b1; }
+.orderloft .orderloft-num { font-size: 28px; font-weight: 600; line-height: 1.2; color: #1d2327; }
+.orderloft .orderloft-actions { margin: 12px 0; display: flex; gap: 12px; align-items: center; }
+.orderloft .orderloft-actions .button.disabled { pointer-events: none; }
+.orderloft .orderloft-run { max-width: 640px; }
+.orderloft .orderloft-run th { width: 140px; }
+.orderloft .orderloft-facts { list-style: disc; padding-left: 20px; max-width: 760px; }
+.orderloft .orderloft-view { background: #fff; border: 1px solid #dcdcde; border-radius: 8px; padding: 8px 24px 24px; max-width: 980px; }
+.orderloft .orderloft-view-head { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+.orderloft .orderloft-view-head h2 { display: flex; align-items: center; gap: 10px; }
+.orderloft .orderloft-view-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.orderloft .orderloft-items { margin-top: 12px; }
+.orderloft .orderloft-items td:nth-child(2), .orderloft .orderloft-items td:nth-child(3), .orderloft .orderloft-items tfoot td { width: 120px; }
+.orderloft mark.order-status { display: inline-flex; border-radius: 4px; padding: 0 8px; line-height: 2.2; background: #e5e5e5; color: #454545; font-size: 13px; font-weight: 400; }
+.orderloft mark.status-completed { background: #c8d7e1; color: #2e4453; }
+.orderloft mark.status-cancelled, .orderloft mark.status-refunded, .orderloft mark.status-failed { background: #eba3a3; color: #761919; }
+.orderloft mark.status-processing { background: #c6e1c6; color: #5b841b; }
+.orderloft mark.status-on-hold { background: #f8dda7; color: #94660c; }
