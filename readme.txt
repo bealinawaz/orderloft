@@ -5,7 +5,7 @@ Tags: archive orders, order archive, old orders, woocommerce orders, hpos
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -97,6 +97,10 @@ Deactivating stops automatic archiving; archived orders stay in the archive tabl
 
 Yes: `wp orderloft archive --older-than=24 --dry-run` shows how many orders match, and `wp orderloft archive --status=completed,refunded --limit=5000` archives them. `wp orderloft restore <id>` or `--all` restores.
 
+= Is the plugin available in my language? =
+
+The plugin is ready for translation, and translations are made by volunteers on WordPress.org. You can help translate it into your language at [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/orderloft/). Once a language is 90% translated, WordPress installs the translation automatically through language packs. A translation template, languages/orderloft.pot, is included for tools such as Poedit and Loco Translate.
+
 == Screenshots ==
 
 1. Overview: live and archived order counts, orders ready to archive, and the last run.
@@ -107,10 +111,17 @@ Yes: `wp orderloft archive --older-than=24 --dry-run` shows how many orders matc
 
 == Changelog ==
 
+= 1.0.1 (2026-11-15) =
+* Translations: a translation template (languages/orderloft.pot) is included, and the readme explains how to translate the plugin.
+* Right-to-left languages: the overview list uses logical CSS.
+
 = 1.0.0 =
 * First release: archive orders by age and status, free nightly automatic archiving, background batches, archived orders screen with search, view, CSV export and restore, single-order archiving, My Account history, privacy export and erasure, WP-CLI commands, and support for HPOS, HPOS compatibility mode and legacy order storage.
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Translation and right-to-left language improvements. Nothing to change.
 
 = 1.0.0 =
 First release.

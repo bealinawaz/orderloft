@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 — 2026-11-15
+
+- Translations: a translation template (languages/orderloft.pot) is included, and the readme explains how to translate the plugin.
+- Right-to-left languages: the overview list uses logical CSS.
+
 ## 1.0.0 — 2026-11-14
 
 - First release.

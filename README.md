@@ -2,7 +2,7 @@
 
 Move old WooCommerce orders out of your live order tables into an archive, automatically or by hand. Restore any order exactly as it was, in one click. WooCommerce Analytics keeps counting archived orders.
 
-![Version 1.0.0](https://img.shields.io/badge/version-1.0.0-blue)
+![Version 1.0.1](https://img.shields.io/badge/version-1.0.1-blue)
 ![Tested up to WordPress 7.1](https://img.shields.io/badge/WordPress-7.1-blue)
 ![WooCommerce 8.2+](https://img.shields.io/badge/WooCommerce-8.2%2B-7f54b3)
 ![PHP 7.4 to 8.5](https://img.shields.io/badge/PHP-7.4%E2%80%938.5-777bb4)
@@ -55,6 +55,10 @@ Deleting the plugin removes its tables only when the archive is empty. Restore a
 - `orderloft_skip_order` (filter): return a reason to keep an order in the live tables.
 - `orderloft_order_archived` (action): after an order and its refunds were archived.
 - `orderloft_order_restored` (action): after an order was restored.
+
+## Translations
+
+Orderloft is translation-ready (text domain `orderloft`). A template is in [languages/orderloft.pot](languages/orderloft.pot); once the plugin is on WordPress.org, translations are made at translate.wordpress.org and installed automatically as language packs.
 
 ## Author
 

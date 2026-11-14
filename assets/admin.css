@@ -6,7 +6,7 @@
 .orderloft .orderloft-actions .button.disabled { pointer-events: none; }
 .orderloft .orderloft-run { max-width: 640px; }
 .orderloft .orderloft-run th { width: 140px; }
-.orderloft .orderloft-facts { list-style: disc; padding-left: 20px; max-width: 760px; }
+.orderloft .orderloft-facts { list-style: disc; padding-inline-start: 20px; max-width: 760px; }
 .orderloft .orderloft-view { background: #fff; border: 1px solid #dcdcde; border-radius: 8px; padding: 8px 24px 24px; max-width: 980px; }
 .orderloft .orderloft-view-head { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
 .orderloft .orderloft-view-head h2 { display: flex; align-items: center; gap: 10px; }
