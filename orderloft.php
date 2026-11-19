@@ -3,7 +3,7 @@
  * Plugin Name:          Orderloft – Archive Old Orders for WooCommerce
  * Plugin URI:           https://github.com/bealinawaz/orderloft
  * Description:          Move old WooCommerce orders out of your live order tables into an archive, automatically or by hand. Restore any order exactly as it was. WooCommerce Analytics keeps counting archived orders.
- * Version:              1.0.1
+ * Version:              1.0.2
  * Requires at least:    6.2
  * Requires PHP:         7.4
  * Requires Plugins:     woocommerce
@@ -21,7 +21,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'ORDERLOFT_VERSION', '1.0.1' );
+define( 'ORDERLOFT_VERSION', '1.0.2' );
 define( 'ORDERLOFT_FILE', __FILE__ );
 define( 'ORDERLOFT_DIR', __DIR__ );
 

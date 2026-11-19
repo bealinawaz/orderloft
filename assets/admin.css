@@ -18,3 +18,5 @@
 .orderloft mark.status-cancelled, .orderloft mark.status-refunded, .orderloft mark.status-failed { background: #eba3a3; color: #761919; }
 .orderloft mark.status-processing { background: #c6e1c6; color: #5b841b; }
 .orderloft mark.status-on-hold { background: #f8dda7; color: #94660c; }
+.orderloft .orderloft-pro { margin-top: 24px; max-width: 760px; background: #fff; border: 1px solid #dcdcde; border-radius: 8px; padding: 4px 20px 12px; }
+.orderloft .orderloft-pro h2 { font-size: 1.1em; }

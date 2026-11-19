@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2 — 2026-11-19
+
+- The Overview tab and the plugin's row on the Plugins screen mention the Orderloft Pro add-on. Both are hidden when Pro is active.
+- Readme: clearer description, Orderloft Pro section, new questions on deleting orders and database space.
+
 ## 1.0.1 — 2026-11-15
 
 - Translations: a translation template (languages/orderloft.pot) is included, and the readme explains how to translate the plugin.

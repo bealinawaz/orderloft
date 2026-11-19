@@ -37,6 +37,21 @@ class Orderloft_Admin {
 		add_action( 'add_meta_boxes', array( __CLASS__, 'add_order_box' ), 30 );
 		add_action( 'admin_notices', array( __CLASS__, 'orders_screen_notice' ) );
 		add_filter( 'plugin_action_links_' . plugin_basename( ORDERLOFT_FILE ), array( __CLASS__, 'plugin_links' ) );
+		add_filter( 'plugin_row_meta', array( __CLASS__, 'plugin_row_meta' ), 10, 2 );
+	}
+
+	/**
+	 * Page of the Orderloft Pro add-on on the author's site.
+	 */
+	const PRO_URL = 'https://bealinawaz.com/wordpress-plugins/pro/orderloft/';
+
+	/**
+	 * Whether the Orderloft Pro add-on is active.
+	 *
+	 * @return bool
+	 */
+	public static function pro_active() {
+		return defined( 'ORDERLOFT_PRO_VERSION' );
 	}
 
 	/**
@@ -58,6 +73,20 @@ class Orderloft_Admin {
 	public static function plugin_links( $links ) {
 		array_unshift( $links, '<a href="' . esc_url( self::url( array( 'tab' => 'settings' ) ) ) . '">' . esc_html__( 'Settings', 'orderloft' ) . '</a>' );
 		return $links;
+	}
+
+	/**
+	 * "Orderloft Pro" link in the plugin's row on the Plugins screen, only while Pro isn't active.
+	 *
+	 * @param array  $meta Row meta links.
+	 * @param string $file Plugin file.
+	 * @return array
+	 */
+	public static function plugin_row_meta( $meta, $file ) {
+		if ( plugin_basename( ORDERLOFT_FILE ) === $file && ! self::pro_active() ) {
+			$meta[] = '<a href="' . esc_url( self::PRO_URL ) . '" target="_blank" rel="noopener noreferrer">' . esc_html__( 'Orderloft Pro', 'orderloft' ) . '</a>';
+		}
+		return $meta;
 	}
 
 	/**
@@ -577,6 +606,27 @@ class Orderloft_Admin {
 			echo esc_html( sprintf( __( 'Order storage on this site: %s.', 'orderloft' ), self::storage_label() ) );
 			?>
 		</p>
+		<?php
+		self::render_pro_box();
+	}
+
+	/**
+	 * One short note about the Pro add-on, shown only on this plugin's Overview tab and only while Pro isn't active.
+	 */
+	private static function render_pro_box() {
+		if ( self::pro_active() ) {
+			return;
+		}
+		?>
+		<div class="orderloft-pro">
+			<h2><?php esc_html_e( 'Need more? Orderloft Pro', 'orderloft' ); ?></h2>
+			<ul class="orderloft-facts">
+				<li><?php esc_html_e( 'Unlimited archive rules by age, status, payment method, order total, customer role, product category or refunds, each with its own schedule and a preview of the orders it matches.', 'orderloft' ); ?></li>
+				<li><?php esc_html_e( 'Offload the archive to S3-compatible storage or a server folder, then remove it from the database after a verified upload to free space. Restore any order later.', 'orderloft' ); ?></li>
+				<li><?php esc_html_e( 'Anonymise customer data on old orders you only keep for tax, with email reports and an activity log.', 'orderloft' ); ?></li>
+			</ul>
+			<p><a class="button" href="<?php echo esc_url( self::PRO_URL ); ?>" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'See Orderloft Pro', 'orderloft' ); ?></a></p>
+		</div>
 		<?php
 	}
 

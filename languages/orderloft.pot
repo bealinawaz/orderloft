@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Orderloft – Archive Old Orders for WooCommerce 1.0.1\n"
+"Project-Id-Version: Orderloft – Archive Old Orders for WooCommerce 1.0.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/orderloft\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-14T21:26:59+00:00\n"
+"POT-Creation-Date: 2026-11-19T05:34:55+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: orderloft\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #. Plugin URI of the plugin
 #: orderloft.php
-msgid "https://github.com/bealinawaz/orderloft"
+msgid "https://bealinawaz.com/wordpress-plugins/pro/orderloft/"
 msgstr ""
 
 #. Description of the plugin
@@ -61,47 +61,51 @@ msgstr ""
 
 #: includes/class-orderloft-account.php:53
 #: includes/class-orderloft-account.php:62
-#: includes/class-orderloft-admin.php:546
+#: includes/class-orderloft-admin.php:575
 #: includes/class-orderloft-list-table.php:42
 msgid "Status"
 msgstr ""
 
 #: includes/class-orderloft-account.php:54
 #: includes/class-orderloft-account.php:63
-#: includes/class-orderloft-admin.php:705
+#: includes/class-orderloft-admin.php:755
 #: includes/class-orderloft-list-table.php:43
 msgid "Total"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:59
-#: includes/class-orderloft-admin.php:421
+#: includes/class-orderloft-admin.php:74
+#: includes/class-orderloft-admin.php:450
 msgid "Settings"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:69
-#: includes/class-orderloft-admin.php:70
-#: includes/class-orderloft-admin.php:427
+#: includes/class-orderloft-admin.php:87
+msgid "Orderloft Pro"
+msgstr ""
+
+#: includes/class-orderloft-admin.php:98
+#: includes/class-orderloft-admin.php:99
+#: includes/class-orderloft-admin.php:456
 msgid "Order Archive"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:134
+#: includes/class-orderloft-admin.php:163
 msgid "You are not allowed to do this."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:148
+#: includes/class-orderloft-admin.php:177
 msgid "A run is already in progress."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:151
+#: includes/class-orderloft-admin.php:180
 msgid "Archiving started. It runs in the background in small batches, so you can leave this page."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:163
+#: includes/class-orderloft-admin.php:192
 msgid "Archiving stopped after the current batch."
 msgstr ""
 
 #. translators: %d: number of orders.
-#: includes/class-orderloft-admin.php:189
+#: includes/class-orderloft-admin.php:218
 #, php-format
 msgid "%d skipped order will be checked again on the next run."
 msgid_plural "%d skipped orders will be checked again on the next run."
@@ -109,19 +113,19 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %d: order ID.
-#: includes/class-orderloft-admin.php:207
+#: includes/class-orderloft-admin.php:236
 #, php-format
 msgid "Order #%d was restored to your live orders."
 msgstr ""
 
 #. translators: %d: order ID.
-#: includes/class-orderloft-admin.php:227
+#: includes/class-orderloft-admin.php:256
 #, php-format
 msgid "Order #%d was archived."
 msgstr ""
 
 #. translators: %d: number of orders.
-#: includes/class-orderloft-admin.php:267
+#: includes/class-orderloft-admin.php:296
 #, php-format
 msgid "%d order was restored."
 msgid_plural "%d orders were restored."
@@ -129,102 +133,102 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: number of archived orders.
-#: includes/class-orderloft-admin.php:372
+#: includes/class-orderloft-admin.php:401
 #, php-format
 msgid "%s older order is in the archive."
 msgid_plural "%s older orders are in the archive."
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-orderloft-admin.php:374
-#: includes/class-orderloft-admin.php:624
+#: includes/class-orderloft-admin.php:403
+#: includes/class-orderloft-admin.php:674
 msgid "Search archived orders"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:387
+#: includes/class-orderloft-admin.php:416
 msgid "Order archive"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:399
+#: includes/class-orderloft-admin.php:428
 msgid "Save the order before archiving it."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:403
+#: includes/class-orderloft-admin.php:432
 msgid "Move this order and its refunds out of your live orders. You can restore it at any time."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:404
+#: includes/class-orderloft-admin.php:433
 msgid "Archive this order"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:419
+#: includes/class-orderloft-admin.php:448
 msgid "Overview"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:420
-#: includes/class-orderloft-admin.php:495
+#: includes/class-orderloft-admin.php:449
+#: includes/class-orderloft-admin.php:524
 #: includes/class-orderloft-privacy.php:95
 msgid "Archived orders"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:453
+#: includes/class-orderloft-admin.php:482
 msgid "High-performance order storage (HPOS)"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:454
+#: includes/class-orderloft-admin.php:483
 msgid "HPOS with compatibility mode (orders are also copied to the posts table)"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:455
+#: includes/class-orderloft-admin.php:484
 msgid "WordPress posts storage (legacy)"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:494
+#: includes/class-orderloft-admin.php:523
 msgid "Live orders"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:496
+#: includes/class-orderloft-admin.php:525
 msgid "Ready to archive"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:499
+#: includes/class-orderloft-admin.php:528
 msgid "Your archive rules"
 msgstr ""
 
 #. translators: 1: number of months, 2: list of order statuses.
-#: includes/class-orderloft-admin.php:506
+#: includes/class-orderloft-admin.php:535
 #, php-format
 msgid "Orders older than %1$d month with status: %2$s."
 msgid_plural "Orders older than %1$d months with status: %2$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-orderloft-admin.php:512
+#: includes/class-orderloft-admin.php:541
 msgid "No order statuses are selected, so nothing will be archived."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:515
+#: includes/class-orderloft-admin.php:544
 msgid "Automatic archiving runs every night."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:515
+#: includes/class-orderloft-admin.php:544
 msgid "Automatic archiving is off."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:517
+#: includes/class-orderloft-admin.php:546
 msgid "Change rules"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:522
+#: includes/class-orderloft-admin.php:551
 msgid "Stop archiving"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:523
+#: includes/class-orderloft-admin.php:552
 msgid "Refresh progress"
 msgstr ""
 
 #. translators: %s: number of orders.
-#: includes/class-orderloft-admin.php:528
+#: includes/class-orderloft-admin.php:557
 #, php-format
 msgid "Archive %s order now"
 msgid_plural "Archive %s orders now"
@@ -232,265 +236,285 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: daily limit.
-#: includes/class-orderloft-admin.php:537
+#: includes/class-orderloft-admin.php:566
 #, php-format
 msgid "Up to %s orders are archived per run (your daily limit). The rest follow on later runs."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:542
+#: includes/class-orderloft-admin.php:571
 msgid "Last run"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:547
+#: includes/class-orderloft-admin.php:576
 msgid "Started"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:548
+#: includes/class-orderloft-admin.php:577
 #: includes/class-orderloft-list-table.php:44
 msgid "Archived"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:549
+#: includes/class-orderloft-admin.php:578
 msgid "Skipped"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:550
+#: includes/class-orderloft-admin.php:579
 msgid "Failed"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:554
+#: includes/class-orderloft-admin.php:583
 msgid "Nothing has been archived yet."
 msgstr ""
 
 #. translators: %s: number of orders.
-#: includes/class-orderloft-admin.php:561
+#: includes/class-orderloft-admin.php:590
 #, php-format
 msgid "%s order was skipped (it has an active subscription, belongs to another order, was restored, or failed to move)."
 msgid_plural "%s orders were skipped (they have an active subscription, belong to another order, were restored, or failed to move)."
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-orderloft-admin.php:563
+#: includes/class-orderloft-admin.php:592
 msgid "Check them again"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:567
+#: includes/class-orderloft-admin.php:596
 msgid "How archiving works"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:569
+#: includes/class-orderloft-admin.php:598
 msgid "Each order moves with its refunds, items, notes, addresses and meta into archive tables in the same database, inside one transaction. If anything fails, nothing changes."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:570
+#: includes/class-orderloft-admin.php:599
 msgid "WooCommerce Analytics keeps counting archived orders, so your revenue reports stay complete."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:571
+#: includes/class-orderloft-admin.php:600
 msgid "Restore any order with one click. It comes back with the same ID, number and history."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:572
+#: includes/class-orderloft-admin.php:601
 msgid "Customers still see archived orders under My Account > Orders, as a read-only list."
 msgstr ""
 
 #. translators: %s: name of the order storage.
-#: includes/class-orderloft-admin.php:577
+#: includes/class-orderloft-admin.php:606
 #, php-format
 msgid "Order storage on this site: %s."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:590
+#: includes/class-orderloft-admin.php:622
+msgid "Need more? Orderloft Pro"
+msgstr ""
+
+#: includes/class-orderloft-admin.php:624
+msgid "Unlimited archive rules by age, status, payment method, order total, customer role, product category or refunds, each with its own schedule and a preview of the orders it matches."
+msgstr ""
+
+#: includes/class-orderloft-admin.php:625
+msgid "Offload the archive to S3-compatible storage or a server folder, then remove it from the database after a verified upload to free space. Restore any order later."
+msgstr ""
+
+#: includes/class-orderloft-admin.php:626
+msgid "Anonymise customer data on old orders you only keep for tax, with email reports and an activity log."
+msgstr ""
+
+#: includes/class-orderloft-admin.php:628
+msgid "See Orderloft Pro"
+msgstr ""
+
+#: includes/class-orderloft-admin.php:640
 msgid "manual"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:590
+#: includes/class-orderloft-admin.php:640
 msgid "automatic"
 msgstr ""
 
 #. translators: %s: manual or automatic.
-#: includes/class-orderloft-admin.php:594
+#: includes/class-orderloft-admin.php:644
 #, php-format
 msgid "Running (%s)"
 msgstr ""
 
 #. translators: %s: manual or automatic.
-#: includes/class-orderloft-admin.php:597
+#: includes/class-orderloft-admin.php:647
 #, php-format
 msgid "Stopped (%s)"
 msgstr ""
 
 #. translators: %s: manual or automatic.
-#: includes/class-orderloft-admin.php:600
+#: includes/class-orderloft-admin.php:650
 #, php-format
 msgid "Finished (%s)"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:626
+#: includes/class-orderloft-admin.php:676
 msgid "Export to CSV"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:641
+#: includes/class-orderloft-admin.php:691
 #: includes/class-orderloft-archiver.php:280
 msgid "This order is not in the archive."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:652
+#: includes/class-orderloft-admin.php:702
 msgid "All archived orders"
 msgstr ""
 
 #. translators: %s: order number.
-#: includes/class-orderloft-admin.php:658
+#: includes/class-orderloft-admin.php:708
 #, php-format
 msgid "Order #%s"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:662
+#: includes/class-orderloft-admin.php:712
 #: includes/class-orderloft-list-table.php:68
 msgid "Restore to live orders"
 msgstr ""
 
 #. translators: %s: date.
-#: includes/class-orderloft-admin.php:667
+#: includes/class-orderloft-admin.php:717
 #, php-format
 msgid "Archived on %s. This is a read-only copy; restore the order to edit it."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:672
+#: includes/class-orderloft-admin.php:722
 msgid "Details"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:674
+#: includes/class-orderloft-admin.php:724
 msgid "Created"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:675
+#: includes/class-orderloft-admin.php:725
 msgid "Paid"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:676
+#: includes/class-orderloft-admin.php:726
 msgid "Completed"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:677
+#: includes/class-orderloft-admin.php:727
 msgid "Payment method"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:679
+#: includes/class-orderloft-admin.php:729
 msgid "Transaction ID"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:681
+#: includes/class-orderloft-admin.php:731
 msgid "Customer"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:685
+#: includes/class-orderloft-admin.php:735
 msgid "Deleted user"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:687
+#: includes/class-orderloft-admin.php:737
 msgid "Guest"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:693
+#: includes/class-orderloft-admin.php:743
 msgid "Billing"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:697
-#: includes/class-orderloft-admin.php:726
+#: includes/class-orderloft-admin.php:747
+#: includes/class-orderloft-admin.php:776
 msgid "Shipping"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:698
+#: includes/class-orderloft-admin.php:748
 msgid "No shipping address."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:702
+#: includes/class-orderloft-admin.php:752
 msgid "Customer note"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:705
+#: includes/class-orderloft-admin.php:755
 msgid "Item"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:705
+#: includes/class-orderloft-admin.php:755
 msgid "Qty"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:727
+#: includes/class-orderloft-admin.php:777
 msgid "Tax"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:728
+#: includes/class-orderloft-admin.php:778
 #: includes/class-orderloft-privacy.php:107
 msgid "Order total"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:730
+#: includes/class-orderloft-admin.php:780
 msgid "Refunded"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:735
+#: includes/class-orderloft-admin.php:785
 msgid "Refunds"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:757
+#: includes/class-orderloft-admin.php:807
 msgid "Archive orders older than"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:759
+#: includes/class-orderloft-admin.php:809
 msgid "months"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:760
+#: includes/class-orderloft-admin.php:810
 msgid "Counted from the date the order was placed."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:764
+#: includes/class-orderloft-admin.php:814
 msgid "With these statuses"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:771
+#: includes/class-orderloft-admin.php:821
 msgid "Usually only finished orders: Completed, Refunded, Cancelled and Failed."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:775
+#: includes/class-orderloft-admin.php:825
 msgid "Automatic archiving"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:777
+#: includes/class-orderloft-admin.php:827
 msgid "Archive matching orders every night at 03:00 (site time)"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:781
+#: includes/class-orderloft-admin.php:831
 msgid "Orders per run"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:784
+#: includes/class-orderloft-admin.php:834
 msgid "The most orders archived in one run. Large first archives continue on the following runs."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:788
+#: includes/class-orderloft-admin.php:838
 msgid "Batch size"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:791
+#: includes/class-orderloft-admin.php:841
 msgid "Orders moved per background task. Lower it on slow hosting."
 msgstr ""
 
-#: includes/class-orderloft-admin.php:795
+#: includes/class-orderloft-admin.php:845
 msgid "Subscriptions"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:797
+#: includes/class-orderloft-admin.php:847
 msgid "Keep orders linked to a subscription that is not cancelled or expired (WooCommerce Subscriptions)"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:801
+#: includes/class-orderloft-admin.php:851
 msgid "Customers"
 msgstr ""
 
-#: includes/class-orderloft-admin.php:803
+#: includes/class-orderloft-admin.php:853
 msgid "Show archived orders to customers under My Account > Orders (read-only)"
 msgstr ""
 
